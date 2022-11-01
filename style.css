@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap');
+
+/*Opciones por default*/
+* {
+    margin: 0;
+ 
+}
+
+/*Fin de opciones por default*/
+
+
+/* Propiedades del  header*/
+.logo-h {
+    margin: 2% 5%;
+    width: 15%;
+    height: 100%;
+}
+
+
+.menu {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    height: 10%;
+    background-image: radial-gradient(circle at 50% 120.71%, #716d9f 0, #3f3f57 25%, #121214 50%, #000000 75%, #000000 100%);
+}
+
+.lmenu {
+    margin: 0px 10px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+}
+
+/*Propieedades del header*/
+
+
+/*Propiedades del footer*/
+
+footer {
+    display: flex;
+    height: 10%;
+    background-image: linear-gradient(20deg, #a1a1a1 0, #768996 25%, #46708c 50%, #005782 75%, #004079 100%);
+    justify-content: space-around;
+
+}
+
+.icono {
+    padding: 20px;
+    width: 20px;
+}
+
+.logo-f {
+    margin: 20px;
+    width: 10%;
+    height: 100%;
+}
+
+.icon-container{
+    display: flex;
+    margin: 0% 10%;
+}
+
+.f-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.fmenu {
+    font-size: smaller;
+    font-family: 'Anton', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Fin de propiedades el footer*/
+
+/*Propiedades del main general*/
+main {
+    background-image: radial-gradient(circle at 50% 120.71%, #716d9f 0, #3f3f57 25%, #121214 50%, #000000 75%, #000000 100%);
+    color: white;
+}
+
+main div h2 {
+    color:  white;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/*Fin de propiedades del main en general*/
+
+/*Propiedades del main de galeria*/
+.product-container {
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* Atenta a que si se desborda el body, acomoda los elementos que sobresalen en la siguiente fila */
+    flex-wrap: wrap;
+
+    /*Cambiar la direccion / row o column*/
+    flex-direction: row;
+}
+
+main section div div img {
+    width: 300px;
+    margin: 20px;
+}
+
+/*Propiedades del main de galeria*/
+.servicios-container {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* Atenta a que si se desborda el body, acomoda los elementos que sobresalen en la siguiente fila */
+    flex-wrap: wrap;
+    /*Cambiar la direccion / row o column*/
+    flex-direction: row;
+}
+
+.service div {
+    margin-top: 7%;
+}
+
+/*Propiedades del main en servicios*/
+
+
+/*Propiedades del main en index*/
+main section h2 {
+    color:  white;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.nosotros {
+    margin: 5%;
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .mapa2 {
+    width: 20px;
+    height: 10px;
+} */
+
+.inicio1-container{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-principal {
+    width: 30%;
+}
+
+.inicio1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inicio-total {
+    display: flex;
+}
+
+/*Fin de propiedades del main en index*/
