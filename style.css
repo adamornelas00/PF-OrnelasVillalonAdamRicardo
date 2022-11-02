@@ -31,29 +31,7 @@ header {
   }
 
 
-  .photo-gallery {
-    color:#313437;
-    background-color:#212529;
-  }
-  
-  .photo-gallery p {
-    color:#7d8285;
-  }
-  
-  .photo-gallery h2 {
-    font-weight:bold;
-    margin-bottom:40px;
-    padding-top:40px;
-    color:whitesmoke;
-  }
-  
-  @media (max-width:767px) {
-    .photo-gallery h2 {
-      margin-bottom:25px;
-      padding-top:25px;
-      font-size:24px;
-    }
-  }
+
 
   @media only screen and (max-width: 767px){
     #logo {
@@ -69,34 +47,7 @@ header {
     }
   }
   
-  .photo-gallery .intro {
-    font-size:16px;
-    max-width:500px;
-    margin:0 auto 40px;
-  }
-  
-  .photo-gallery .intro p {
-    margin-bottom:0;
-  }
-  
-  .photo-gallery .photos {
-    padding-bottom:20px;
-    
-  }
-  
-  .photo-gallery .item {
-    padding-bottom:30px;
-    transition: 2s;
-    
-  }
 
-  .photo-gallery .item:hover {
-    transform: scale(1.2);
-  }
-
-  .img-fluid {
-    border-radius: 6px;
-  }
 
 
 /*Propieedades del header*/
@@ -168,10 +119,7 @@ header {
 /*Fin de propiedades el footer*/
 
 /*Propiedades del main general*/
-main {
-    background-image: radial-gradient(circle at 50% 120.71%, #716d9f 0, #3f3f57 25%, #121214 50%, #000000 75%, #000000 100%);
-    color: white;
-}
+
 
 main div h2 {
     color:  white;
@@ -183,48 +131,110 @@ main div h2 {
 /*Fin de propiedades del main en general*/
 
 /*Propiedades del main de galeria*/
-.product-container {
-    display: flex;
-    justify-content: center;
-}
+.photo-gallery {
+    color:#313437;
+    background-color:#212529;
+  }
+  
+  .photo-gallery p {
+    color:#7d8285;
+  }
+  
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:whitesmoke;
+  }
+  
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
 
-.product {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    /* Atenta a que si se desborda el body, acomoda los elementos que sobresalen en la siguiente fila */
-    flex-wrap: wrap;
+.photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+    
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+    transition: 2s;
+    
+  }
 
-    /*Cambiar la direccion / row o column*/
-    flex-direction: row;
-}
+  .photo-gallery .item:hover {
+    transform: scale(1.2);
+  }
 
-main section div div img {
-    width: 300px;
-    margin: 20px;
-}
+  .img-fluid {
+    border-radius: 6px;
+  }
 
-/*Propiedades del main de galeria*/
-.servicios-container {
-    display: flex;
-    justify-content: center;
-}
-
-.service {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    /* Atenta a que si se desborda el body, acomoda los elementos que sobresalen en la siguiente fila */
-    flex-wrap: wrap;
-    /*Cambiar la direccion / row o column*/
-    flex-direction: row;
-}
-
-.service div {
-    margin-top: 7%;
-}
+/*Fin Propiedades del main de galeria*/
 
 /*Propiedades del main en servicios*/
+
+.parent{
+    position: relative;
+
+ }
+ .img{
+   width: 100%;
+   height: auto;
+   opacity: 0.4;
+   border-radius: 10px;
+ }
+ .top-left{
+    position: absolute;
+    left:20px;
+    top:0;
+    color: whitesmoke;
+    flex-wrap: wrap;
+ }
+
+ .photo-gallery h3 {
+    font-weight:bold;
+    margin-bottom:10px;
+    padding-top:10px;
+    color:whitesmoke;
+    font-family: 'Anton', sans-serif;;
+  }
+
+  .photo-gallery ul {
+    margin-right: 10px;
+    font-family: 'Anton', sans-serif;
+    
+  }
+
+
+  @media only screen and (min-width: 767px) and (max-width: 1200px){
+    .photo-gallery ul li {
+
+        font-size: 80%;
+      }
+  }
+
+  .bottom-right{
+    position: absolute;
+    right:15px;
+    bottom:10px;
+ }
+
+/* Fin Propiedades del main en servicios*/
 
 
 /*Propiedades del main en index*/
