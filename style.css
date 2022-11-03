@@ -10,7 +10,7 @@
 
 
 /* Propiedades del  header*/
-
+/* colocamos color del header */
 header {
     background-color: #212529;
 }
@@ -20,18 +20,19 @@ header {
     color: white;
 }
 
+/* colocamos animacion cuando el cursor pase arriba del cualquier parte del navegador */
 .nav .menu .lista a:hover{
     text-decoration: line-through;
     color: #b1181849;
 }
-
+/* si esta en la pestaña actual, ese link debe apareer bloqueado */
 .nav .menu .lista .activo {
     text-decoration: line-through;
     color: #b1181849;
   }
 
 
-
+/* cuando la pantalla es mas chica, disminuimos el tamaño del logo del header */
 
   @media only screen and (max-width: 767px){
     #logo {
@@ -79,7 +80,8 @@ header {
     text-decoration:none;
     opacity:0.8;
   }
-  
+
+  /* si pasamos arriba aumentara el colo de los links */
   .footer-basic ul a:hover {
     opacity:1;
   }
@@ -147,6 +149,7 @@ main div h2 {
     color:whitesmoke;
   }
   
+  /* cuando disminuye el tamaño de pantalla modificamos el margen, padding y tamaño de letra */
   @media (max-width:767px) {
     .photo-gallery h2 {
       margin-bottom:25px;
@@ -176,10 +179,13 @@ main div h2 {
     
   }
 
+  /* colocamos animación de crecimiento cada vez que pasemos arriba el cursor por las fotos  */
+
   .photo-gallery .item:hover {
     transform: scale(1.2);
   }
 
+  /* bordeamos las imagenes para que no sean cuadradas totales */
   .img-fluid {
     border-radius: 6px;
   }
@@ -198,6 +204,8 @@ main div h2 {
    opacity: 0.4;
    border-radius: 10px;
  }
+
+ /* colocamos position en absolute para que el texto pueda estar arriba de la imagen */
  .top-left{
     position: absolute;
     left:20px;
@@ -220,6 +228,7 @@ main div h2 {
     
   }
 
+  /* modificamos el tamaño de letra cuando se tiene una pantalla como tableta debido a que las imagenes se desbordan */
 
   @media only screen and (min-width: 767px) and (max-width: 1200px){
     .photo-gallery ul li {
