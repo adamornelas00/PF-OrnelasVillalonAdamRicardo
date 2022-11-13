@@ -82,4 +82,89 @@ header .nav .menu .lista .activo {
   margin-bottom: 0;
 }
 
+.photo-gallery {
+  color: #313437;
+  background-color: #212529;
+  /*Esto lo acupamos para la pagina de servicios*/
+}
+.photo-gallery p {
+  color: #7d8285;
+}
+.photo-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: whitesmoke;
+}
+@media (max-width: 767px) {
+  .photo-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+.photo-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+.photo-gallery .intro p {
+  margin-bottom: 0;
+}
+.photo-gallery .intro .photos {
+  padding-bottom: 20px;
+}
+.photo-gallery .item {
+  padding-bottom: 30px;
+  transition: 2s;
+}
+.photo-gallery .item :hover {
+  transform: scale(1.2);
+}
+.photo-gallery h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  color: whitesmoke;
+  font-family: "Anton", sans-serif;
+}
+.photo-gallery ul {
+  margin-right: 10px;
+  font-family: "Anton", sans-serif;
+}
+@media (min-width: 767px) and (max-width: 1200px) {
+  .photo-gallery ul li {
+    font-size: 80%;
+  }
+}
+
+.img-fluid {
+  border-radius: 6px;
+}
+
+.parent {
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+  border-radius: 10px;
+}
+
+.top-left {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  color: whitesmoke;
+  flex-wrap: wrap;
+}
+
+.bottom-right {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
