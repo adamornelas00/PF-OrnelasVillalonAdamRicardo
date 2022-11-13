@@ -167,4 +167,23 @@ header .nav .menu .lista .activo {
   bottom: 10px;
 }
 
+#contacto {
+  background-color: #212529;
+}
+#contacto div h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: whitesmoke;
+}
+#contacto div .mapa {
+  border: 10px;
+}
+#contacto div div .mapa2 {
+  border-radius: 8px;
+  width: 80%;
+  height: 400px;
+  border: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
