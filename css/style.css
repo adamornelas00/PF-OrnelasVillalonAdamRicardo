@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins&display=swap");
+* {
+  margin: 0;
+}
+
+header {
+  background-color: #212529;
+}
+header .nav .menu .lista a {
+  font-family: "Anton", sans-serif;
+  color: white;
+}
+header .nav .menu .lista a:hover {
+  text-decoration: line-through;
+  color: rgba(177, 24, 24, 0.2862745098);
+}
+header .nav .menu .lista .activo {
+  text-decoration: line-through;
+  color: rgba(177, 24, 24, 0.2862745098);
+}
+@media (max-width: 767px) {
+  header #logo {
+    width: 60px;
+    height: 40px;
+  }
+}
+@media (min-width: 768px) {
+  header #logo {
+    width: 120px;
+    height: 80px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

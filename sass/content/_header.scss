@@ -1,0 +1,32 @@
+header {
+    background-color: #212529;
+
+    .nav .menu .lista a{
+        font-family: 'Anton', sans-serif;
+        color: white;
+    }
+
+    .nav .menu .lista a:hover{
+        text-decoration: line-through;
+        color: #b1181849;
+    }
+
+    .nav .menu .lista .activo{
+        text-decoration: line-through;
+        color: #b1181849;
+    }
+
+    @media (max-width: 767px){
+        #logo {
+            width: 60px;
+            height: 40px;
+        }
+    }
+
+    @media (min-width:768px){
+        #logo {
+            width: 120px;
+            height: 80px;
+        }
+    }
+}
