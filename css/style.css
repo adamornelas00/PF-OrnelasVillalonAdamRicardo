@@ -227,5 +227,9 @@ header .nav .menu .lista .activo {
 .resenas {
   background-color: #212529;
 }
+.resenas h2 {
+  color: whitesmoke;
+  font-family: "Anton", sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */
