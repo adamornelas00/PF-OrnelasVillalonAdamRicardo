@@ -232,4 +232,17 @@ header .nav .menu .lista .activo {
   font-family: "Anton", sans-serif;
 }
 
+main div h2 {
+  color: whitesmoke;
+  font-family: "Anton", sans-serif;
+}
+main div p {
+  color: whitesmoke;
+  font-size: large;
+}
+main div div {
+  width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
